@@ -216,7 +216,8 @@ footer{
     margin-right: 10px;
     max-width: 400px;
     & img{
-        width: 50%;
+        width: 100px;
+        height: 100px;
      
         cursor: pointer;
     }
@@ -235,6 +236,7 @@ footer{
 @media (max-width:450px) {
     .contact-container{
         flex-direction: column;
+        gap: 20px;
        }
 }
 @media (max-width:950px) {
